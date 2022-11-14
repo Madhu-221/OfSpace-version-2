@@ -558,6 +558,18 @@ ul.footer-menu-list li a {
   .image-box img {
     width: 90%;
   }
+  .dashboard-content::before {
+    display: none;
+   }
+   .finances-content.row {
+    width: 46%;
+  }
+  .hero-section-content {
+    width: 48%;
+  }  
+  .hero-section-image{
+    width: 50%;
+  }
 }
 @media (min-width:992px) and (max-width:1199px) {
     .container{
@@ -735,7 +747,9 @@ ul.footer-menu-list li a {
   .bottom-footer.row {
     padding: 22px 0px;
   }
-
+  .dashboard-content::before {
+    display: none;
+   }
 }
 @media (min-width:768px) and (max-width:991px) {
     .container{
