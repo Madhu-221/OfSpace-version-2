@@ -212,6 +212,11 @@ a.nav-btn {
 .mobile-menu li a:hover {
   color: #0d0d0d;
 }
+.nav-btn:hover {
+  background: #e5ecf7;
+  color: #462d4e;
+  border-color: #e5ecf7;
+}
 /****Banner section Start***/
 section.hero-box {
     padding: 160px 0px 200px 0px;
@@ -231,10 +236,16 @@ a.dark-btn {
     color: #EFEDFF;
     font-weight: 700;
     line-height: 26px;
+    border: 1px solid #5846DF;
+}
+a.btn:hover{
+  background-color: #5846DF;
+  border: 1px solid #5846DF;
+
 }
 a.btn {
     border: 1px solid rgba(255, 255, 255, 0.41);
-    padding: 17px 26px;
+    padding: 18px 26px;
     border-radius: 10px;
     line-height: 26px;
     margin-left: 22px;
@@ -274,7 +285,11 @@ span.green-text {
     display: flex;
     justify-content: space-between;
     width: 57%;
-}  
+} 
+.dark-btn:hover {
+  background: #fff0;
+  border: 1px solid #867e91;
+} 
 /**** Finance section****/
 .finances-content.row {
     width: 45%;
@@ -337,6 +352,7 @@ section.Finances {
 .payment-method-content{
     width:50%;
     margin-left: 35px;
+    z-index: 1;
 }
 .payment-image{
     width: 50%;
@@ -426,6 +442,9 @@ section.functional {
     position: absolute;
     right: 45px;
     top: -20px;
+}
+.functional-image-box:hover::before, .functional-image-box:hover::after {
+  display: none;
 }
 /****Recepit section***/
 section.Receipt-section {
@@ -536,10 +555,6 @@ footer h3 {
     line-height: 21px;
     padding: 25px 0px 30px 0px;
 }
-
-.footer-logos {
-    padding-top: 25px;
-}
 ul.footer-menu-list li a {
     color: #7A6982;
     font-size: 14px;
@@ -557,6 +572,9 @@ ul.footer-menu-list li a {
 }
 .footer-mobile-menu {
     display: none;
+}
+ul.footer-menu-list li a:hover {
+  color: #352739;
 }
 /****Responsive*****/
 
