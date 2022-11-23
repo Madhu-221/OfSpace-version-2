@@ -217,6 +217,9 @@ a.nav-btn {
   color: #462d4e;
   border-color: #e5ecf7;
 }
+ul.nav-menu li a:hover {
+  color: #cac9c9;
+}
 /****Banner section Start***/
 section.hero-box {
     padding: 160px 0px 200px 0px;
@@ -334,6 +337,9 @@ section.Finances {
     background: #F5F6FA;
     padding: 75px 320px 75px 80px;
     margin: -200px 0px 0px 355px;
+}
+.arrow-btn.row:hover {
+  transform: rotateX(340deg);
 }
 /***Payment method Section****/
 

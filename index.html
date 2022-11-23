@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ofspace-version-two</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <header>
@@ -118,7 +120,7 @@
             </div>
 
             <div class="finaces-box row">
-                <div class="finaces-img-box row">
+                <div class="finaces-img-box row" data-aos="slide-up">
                     <div class="image-box">
                         <img src="./images/micro-business.png" alt="">
                     </div>
@@ -131,7 +133,7 @@
 
                 </div>
 
-                <div class="finaces-img-box row">
+                <div class="finaces-img-box row" data-aos="slide-up">
                     <div class="image-box">
                         <img src="./images/SMBs & Startup-image.svg" alt="">
                     </div>
@@ -145,7 +147,7 @@
 
             </div>
             <div class="finaces-box row">
-                <div class="finaces-img-box row">
+                <div class="finaces-img-box row" data-aos="slide-up">
                     <div class="image-box">
                         <img src="./images/Freelancer-image.png" alt="">
                     </div>
@@ -157,7 +159,7 @@
 
                 </div>
 
-                <div class="finaces-img-box row">
+                <div class="finaces-img-box row" data-aos="slide-up">
                     <div class="image-box">
                         <img src="./images/Business Founder.png" alt="">
                     </div>
@@ -186,16 +188,16 @@
                         <li> <img src="./images/dark-tick.svg" alt=""> <span class="icon-list icon-list-color"> Send and receive transfer in france and globally.</span></li>
                         <li> <img src="./images/dark-tick.svg" alt=""> <span class="icon-list icon-list-color"> Get access to check deposit, a payment terminal, etc.</span></li>
                     </ul>
-                    <a href="#" class="btn purple">Open Account</a>
+                    <a href="#" class="btn purple" data-aos="fade-up">Open Account</a>
                 </div>
             </div>
             <div class=" dashboard-content row ">
                 <div class="payment-method-content dashbord">
                     <h2>A Dashboard <br> to Keep Control Over Your Account Switch</h2>
                     <p>This plan is based on an analysis of your transactions, for a simple, hassle-free transition. Once you've completed all the steps, close your previous account with peace of mind.</p>
-                    <a href="#" class="btn purple">Learn More</a>
+                    <a href="#" class="btn purple"  data-aos="fade-up">Learn More</a>
                 </div>
-                <div class="dashboard-img">
+                <div class="dashboard-img" data-aos="zoom-out-right">
                     <img src="./images/Dashboard-image.png" alt="">
                 </div>
             </div>
@@ -209,7 +211,7 @@
                     <h2>A Multifunctional 
                         and Safe Business Account</h2>
                 </div>
-                <div class="functional-content">
+                <div class="functional-content" data-aos="zoom-in">
                 <div class="functional-content-boxes row">
                     <div class="functional-image-box image-border">
                         <img src="./images/Fair-icon.svg" alt="">
@@ -250,7 +252,7 @@
                     <h2>Add Receipts to Your Payments.</h2>
                     <p>Pay, take a picture of the receipt and attach it to the purchase. <span class="para-bold">It is automatically certified with probated value and stored securely. You're covered in case of control!</span></p>
                     <p>No more missing receipts: with Qonto, you can match all your team's receipts to the corresponding payments directly on the app.</p>
-                    <a href="#" class="btn purple btn-space">Manage Expenses</a>
+                    <a href="#" class="btn purple btn-space" data-aos="fade-up">Manage Expenses</a>
                 </div>
             </div>
         </div>
@@ -259,7 +261,7 @@
         <div class="container">
             <div class="steps-section">
             <h2>Ready to try Qonto?</h2>
-            <div class=" steps-main row">
+            <div class=" steps-main row" data-aos="fade-up">
                 <div class="step-main-col">
                     <div class="step-box ">
                         <img src="./images/01.svg" alt="">
@@ -398,9 +400,9 @@
                     <p>Copyright 2010 - 2021 Ofspace</p>
                 </div>
                 <div class="social-icon">
-                    <img src="./images/Facebook-icon.svg" alt="">
-                    <img src="./images/Twitter-icon.svg" alt="">
-                    <img src="./images/instagram-icon.svg" alt="">
+                    <a href="#"><img src="./images/Facebook-icon.svg" alt=""></a>
+                    <a href="#"><img src="./images/Twitter-icon.svg" alt=""></a>
+                    <a href="#"><img src="./images/instagram-icon.svg" alt=""></a>
                 </div>
             </div>
         </div>
@@ -411,6 +413,9 @@
 function toggleMobileMenu(menu) {
   menu.classList.toggle('open');
 }
+AOS.init({
+  duration: 1800,
+})
     </script>    
 </body>
 </html>
