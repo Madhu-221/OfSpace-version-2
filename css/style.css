@@ -214,7 +214,7 @@ a.nav-btn {
 }
 .nav-btn:hover {
   background: #e5ecf7;
-  color: #462d4e;
+  color: #462d4e !important;
   border-color: #e5ecf7;
 }
 ul.nav-menu li a:hover {
@@ -852,6 +852,7 @@ ul.footer-menu-list li a:hover {
       }
       a.dark-btn {
         padding: 8px 16px;
+        border-radius: 6px;
       }
       a {
         font-size: 10px !important;
@@ -870,10 +871,17 @@ ul.footer-menu-list li a:hover {
       .mobile-menu {
         top: 60px;
         height: 190px;
+      } 
+      .banner-btn a.btn {
+        margin-left: 15px;
+        line-height: 25px !important;
+      }
+      .banner-btn .btn a{
+        line-height: 25px !important;
       }
       a.btn {
         padding: 8px 16px;
-        line-height: 22px;
+        border-radius: 6px;
       }
       section.hero-box {
         padding: 100px 0px 160px 0px;
@@ -1275,13 +1283,13 @@ ul.footer-menu-list li a:hover {
       }
       .functional-content-boxes{
         flex-direction: row;
-        padding-top: 10px;
+        padding-top: 15px;
       }
       .functional-content {
         width: 100%;
       }
       .functional-image-box {
-        padding: 16px 10px;
+        padding: 16px 15px;
       }
       .functional-image-box img {
         padding-bottom: 10px;
@@ -1292,19 +1300,16 @@ ul.footer-menu-list li a:hover {
         line-height: 16px;
       }
       .image-border::before {
-        left: 4%;
-        top: 90%;
+       display: none;
       }
       .image-border-down::before {
-        right: 1%;
-        top: -19%;
+        display: none;
       }
       .image-border-down::after {
        display: none;
       }
       .image-border::after {
-        right: 4%;
-        top: 22%;
+        display: none;
       }
       section.Receipt-section {
         padding: 35px 0px 35px 0px;
